@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
@@ -31,4 +31,41 @@
     <img src="logo.jpg" alt="Logo">
     <p class="coming-soon">Çok Yakında</p>
 </body>
+</html>
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalori Hesaplama</title>
+</head>
+
+<body>
+    <header>
+        <img src="logo.jpg" alt="Calorin">
+        <h1>Calorin</h1>
+    </header>
+    <main>
+        <section id="calculator">
+            <label for="foodInput">Yiyecek:</label>
+            <input type="text" id="foodInput" placeholder="Yiyecek adını girin">
+            <label for="calories">Kalori Miktarı:</label>
+            <input type="number" id="calories" placeholder="Kalori miktarını girin">
+            <button onclick="calculateCalories()">Hesapla</button>
+        </section>
+        <section id="result">
+            <h2>Sonuç:</h2>
+            <p id="caloriesResult">Toplam Kalori: 0</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Calorin</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
 </html>
