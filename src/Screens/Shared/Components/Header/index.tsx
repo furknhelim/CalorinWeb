@@ -23,7 +23,7 @@ function Header() {
     return (
         <div className="header-container">
             <div className="header-left">
-                <img src="../../../../../logo.png" className="left-logo" />
+                <img src="../../../../logo.png" className="left-logo" />
                 <p className="left-title">Calorin</p>
             </div>
             <Pages
