@@ -2,7 +2,7 @@
     height: 120px;
     width: 100%;
     box-sizing: border-box;
-    box-shadow: 0px 8px 10px rgba(107, 107, 107, .25);
+    box-shadow: 0px 8px 10px #A8A8A840;
     background-color: white;
     display: flex;
     align-items: center;
