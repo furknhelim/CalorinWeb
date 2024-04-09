@@ -1,0 +1,27 @@
+.headerContainer {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 2px solid gray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    height: 78px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    margin-right: 10px;
+}
+
+.headerScreens {
+    display: flex;
+}
