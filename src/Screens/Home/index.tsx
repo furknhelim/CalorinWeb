@@ -1,11 +1,11 @@
-import { Bottom, Header } from '../Shared/Components'
-import './index.css'
+import { Footer, Header } from '../Shared/Components'
+import './style.css'
 
 function HomeScreen() {
     return (
-        <div>
+        <div className="container">
             <Header />
-            <Bottom />
+            <Footer />
         </div>
     )
 }
