@@ -1,5 +1,6 @@
 import { Footer, Header } from '../Shared/Components'
 import './style.css'
+import {useEffect} from "react"
 
 function HomeScreen() {
     useEffect(() => {
