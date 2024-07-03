@@ -1,0 +1,42 @@
+#banner-container {
+    width: calc(min(1106px, 100% - (100% * .23)));
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #343434;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-title-dif {
+    color: #864AF9;
+}
+
+#banner-desc {
+    font-size: 16px;
+    color: #A09FA5;
+    margin: 24px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+button.common {
+    height: 50px;
+    width: 163px;
+    border-radius: 10px;
+    background-color: #864AF9;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+#banner-image {
+    width: calc(38vw);
+    height: auto;
+    margin-left: 50px;
+}

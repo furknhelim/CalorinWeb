@@ -1,15 +1,12 @@
+// import Pages, { IPageListParam } from "./Pages"
 import Pages, { IPageListParam } from "./Pages"
 import "./style.css"
 
 const PAGE_LIST: IPageListParam[] = [
     {
-        title: 'Premium',
-        style: {
-            color: '#FEA013',
-            fontWeight: "600",
-            textShadow: "1px 4px 4px rgba(0, 0, 0, .25)"
-        },
-        onClick: () => { }
+        title: 'Ana Sayfa',
+        onClick: () => { },
+        isSelected: true
     },
     {
         title: 'Hakkımızda',
@@ -19,21 +16,24 @@ const PAGE_LIST: IPageListParam[] = [
         title: 'İletişim',
         onClick: () => { }
     },
+    {
+        title: 'Premium',
+        onClick: () => { },
+        hasContainer: true
+    },
 ]
 
 
 function Header() {
     return (
-        <div className="header-container">
-            <div className="header-content">
-                <button className="header-logo-title">
-                    <img src="logo.png" className="header-logo" />
-                    <p className="header-title">Calorin</p>
-                </button>
-                <Pages
-                    list={PAGE_LIST}
-                />
-            </div>
+        <div id="header-container">
+            <button id="logo-button">
+                <img src="logo.png" id="logo-image" />
+                <div style={{ display: "flex" }}>
+                    <p id="logo-title">Calor<span id="logo-title-2">in</span></p>
+                </div>
+            </button>
+            <Pages list={PAGE_LIST} />
         </div>
     )
 }
