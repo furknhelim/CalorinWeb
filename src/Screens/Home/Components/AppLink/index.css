@@ -1,0 +1,27 @@
+#appLink-container {
+    width: calc(min(1106px, 100% - (100% * .23)));
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    /* border: 1px black solid; */
+    box-sizing: border-box;
+    padding: 0 75px;
+}
+
+#appLink-image {
+    width: calc(38vw);
+    height: auto;
+    margin-right: 100px;
+    /* border: 1px black solid; */
+}
+
+#appLink-links {
+    display: flex;
+    box-sizing: border-box;
+}
+
+#appLink-linkImage {
+    width: 45%;
+}

@@ -1,5 +1,5 @@
 import { Footer, Header } from '../Shared/Components'
-import { Banner } from './Components'
+import { AppLink, Banner, GoldenKeys } from './Components'
 import './style.css'
 
 function HomeScreen() {
@@ -7,6 +7,8 @@ function HomeScreen() {
         <div className="container">
             <Header />
             <Banner />
+            <GoldenKeys />
+            <AppLink />
             <Footer />
         </div>
     )
