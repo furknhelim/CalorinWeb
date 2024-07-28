@@ -1,5 +1,5 @@
 #goldenKey-container {
-    width: 20%;
+    width: 21%;
 }
 
 #goldenKey-box {
@@ -22,11 +22,12 @@
 }
 
 #goldenKey-title {
-    font-size: 20px;
+    font-size: 18px;
     color: #303030;
-    font-weight: 900;
+    font-weight: 600;
     /* border: 1px black solid; */
     margin: 0;
+    font-family: "Noto Sans Bengali UI", sans-serif;
 }
 
 #goldenKey-desc {
@@ -40,4 +41,5 @@
     -webkit-line-clamp: 2;
     line-clamp: 2;
     overflow: hidden;
+    font-family: "Noto Sans Bengali UI", sans-serif;
 }

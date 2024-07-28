@@ -1,16 +1,15 @@
-import { Footer, Header } from '../Shared/Components'
 import { AppLink, Banner, GoldenKeys } from './Components'
+import AppDetails from './Components/AppDetails'
 import './style.css'
 
 function HomeScreen() {
     return (
-        <div className="container">
-            <Header />
+        <>
             <Banner />
             <GoldenKeys />
+            <AppDetails />
             <AppLink />
-            <Footer />
-        </div>
+        </>
     )
 }
 

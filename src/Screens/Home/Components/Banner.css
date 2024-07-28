@@ -17,11 +17,16 @@
     color: #864AF9;
 }
 
+#header-desc-20,
 #header-desc {
     font-size: 16px;
     color: #A09FA5;
     margin: 24px 0;
     font-family: "Montserrat", sans-serif;
+}
+
+#header-desc-20 {
+    font-size: 20px;
 }
 
 button.common {

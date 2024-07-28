@@ -14,3 +14,14 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+.container {
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    overflow-y: scroll;
+}

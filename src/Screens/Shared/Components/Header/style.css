@@ -29,13 +29,9 @@
 #logo-title {
     font-size: 30px;
     font-weight: 700;
-    color: #000000;
+    color: #864AF9;
     font-family: "Montserrat", sans-serif;
     letter-spacing: -.07em;
-}
-
-#logo-title-2 {
-    color: #864AF9;
 }
 
 #header-pages {
@@ -49,6 +45,8 @@
     color: #989898;
     font-family: "Montserrat", sans-serif;
     position: relative;
+    /* border: 1px solid; */
+    width: 100px;
 }
 
 #header-page-button-pointer {
@@ -68,6 +66,6 @@
     height: 50px;
     width: 165px;
     border-radius: 25px;
-    background-color: #3C226F;
+    background-color: #EABE3F;
     color: #FFFFFF;
 }

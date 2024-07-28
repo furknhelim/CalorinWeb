@@ -1,11 +1,16 @@
+import { NavigateFunction, useNavigate } from "react-router-dom"
 
-function Pages({ list }: IPageProps) {
+function Pages({ list, activePath }: IPageProps) {
+
+    const navigate = useNavigate()
+
     return (
         <div id="header-pages">
             {
-                list.map(({ title, onClick, isSelected, hasContainer }, index) => {
+                list.map(({ title, onClick, hasContainer, path }, index) => {
+                    const isSelected = activePath !== undefined && activePath === path
                     const _style: React.CSSProperties = {
-                        marginLeft: index === 0 ? 0 : 48,
+                        marginLeft: index === 0 ? 0 : 35,
                         fontWeight: isSelected ? 600 : 500
                     }
                     if (!hasContainer) {
@@ -14,7 +19,7 @@ function Pages({ list }: IPageProps) {
                                 id="header-page-button"
                                 style={_style}
                                 key={index}
-                                onClick={onClick}
+                                onClick={() => onClick(navigate)}
                             >
                                 <p>{title}</p>
                                 {
@@ -39,13 +44,14 @@ function Pages({ list }: IPageProps) {
 
 interface IPageProps {
     list: IPageListParam[]
+    activePath?: string
 }
 
 export interface IPageListParam {
-    isSelected?: boolean
     hasContainer?: boolean
-    onClick: () => void
+    onClick: (navigate: NavigateFunction) => void
     title: string
+    path?: string
 }
 
 export default Pages

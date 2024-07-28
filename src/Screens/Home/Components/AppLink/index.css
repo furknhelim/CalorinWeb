@@ -7,13 +7,12 @@
     margin-bottom: 80px;
     /* border: 1px black solid; */
     box-sizing: border-box;
-    padding: 0 75px;
 }
 
 #appLink-image {
     width: calc(38vw);
     height: auto;
-    margin-right: 100px;
+    margin-right: 150px;
     /* border: 1px black solid; */
 }
 
