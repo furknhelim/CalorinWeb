@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Footer, Header } from './Screens/Shared/Components'
 import AboutScreen from './Screens/About'
 import "../public/i18n.js"
-import ContactScreen from './Screens/Contact/index.js'
+// import ContactScreen from './Screens/Contact/index.js'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
