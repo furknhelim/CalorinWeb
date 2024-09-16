@@ -2,42 +2,44 @@
 import { useLocation } from "react-router-dom"
 import Pages, { IPageListParam } from "./Pages"
 import "./style.css"
-import { useEffect } from "react"
-
-const PAGE_LIST: IPageListParam[] = [
-    {
-        title: 'Ana Sayfa',
-        path: '/',
-        onClick: (navigate) => { navigate('/') },
-    },
-    {
-        title: 'Hakkımızda',
-        path: '/about',
-        onClick: (navigate) => { navigate('/about') },
-
-    },
-    {
-        title: 'İletişim',
-        // path: '/contact',
-        onClick: () => {  },
-
-    },
-    {
-        title: 'Premium',
-        hasContainer: true,
-        onClick: () => { },
-    },
-]
-
+import { useEffect, useMemo } from "react"
+import { useTranslation } from "react-i18next"
 
 function Header() {
+
+    const { t } = useTranslation()
+
+    const PAGE_LIST: IPageListParam[] = useMemo(() => [
+        {
+            title: t("header.page.home"),
+            path: '/',
+            onClick: (navigate) => { navigate('/') },
+        },
+        {
+            title: t("header.page.about"),
+            path: '/about',
+            onClick: (navigate) => { navigate('/about') },
+
+        },
+        {
+            title: t("header.page.contact"),
+            path: '/contact',
+            onClick: (navigate) => { navigate('/contact') },
+
+        },
+        {
+            title: t("header.premium"),
+            hasContainer: true,
+            onClick: () => { },
+        },
+    ], [t])
 
     const location = useLocation()
     const currentPath = location.pathname
 
     useEffect(() => {
         window.scrollTo(0, 0); // Sayfanın en üstüne kaydırır
-      }, [location]);
+    }, [location]);
 
     return (
         <div id="header-container">

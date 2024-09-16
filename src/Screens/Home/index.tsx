@@ -3,6 +3,7 @@ import AppDetails from './Components/AppDetails'
 import './style.css'
 
 function HomeScreen() {
+
     return (
         <>
             <Banner />

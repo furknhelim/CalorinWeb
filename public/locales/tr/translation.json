@@ -1,0 +1,60 @@
+{
+    "header": {
+        "page": {
+            "home": "Ana Sayfa",
+            "about": "Hakkımızda",
+            "contact": "İletişim"
+        },
+        "premium": "Premium"
+    },
+    "page": {
+        "home": {
+            "banner": {
+                "title": {
+                    "start": "Sağlıklı beslenmek için",
+                    "middle": " en kolay ",
+                    "end": "yol"
+                },
+                "description": "Calorin’in yapay zeka destekli asistanı ve yeni görüntü teknolojisi sayesinde artık kalori hesabı yapmak daha kolay!"
+            },
+            "goldenKeys": {
+                "title": "3 Altın Anahtar",
+                "time": {
+                    "title": "VAKİT",
+                    "description": "Kamera ile saniyeler içinde öğününü tanıt."
+                },
+                "energy": {
+                    "title": "ENERJİ",
+                    "description": "Tüm besin değerlerin tek tıkla hesaplansın."
+                },
+                "motivation": {
+                    "title": "MOTİVASYON",
+                    "description": "Kişisel planına sadık kal ve ivme kazan."
+                }
+            },
+            "appDetails": {
+                "title": {
+                    "start": "En Hızlı ",
+                    "end": "Yöntem"
+                },
+                "description": "Tek yapman gereken öğününün fotoğrafını çekmek. Calorin sana saniyeler içerisinde tüm besin değerlerini gösterecek."
+            },
+            "appLink": {
+                "title": {
+                    "start": "Kişiye Özel ",
+                    "end": "Plan"
+                },
+                "description": "Calorin’in sana sunduğu kişisel plan sayesinde gelişimini takip et, plana sadık kal ve hedefe ulaş!"
+            }
+        },
+        "about": {
+            "vision": {
+                "title": "Vizyon ve Misyon",
+                "description": "Calorin, öğün ve kalori takibinizi en pratik şekilde yapmanızı sağlayarak sizleri sağlıklı bir yaşam için motive eder. <br /><br /> Misyonumuz, sağlıklı beslenmeyi herkes için basit ve erişilebilir hale getirmek, geliştirdiğimiz yeni teknoloji sayesinde sürdürülebilir sağlıklı yaşamı tüm kullanıcılarımıza aşılamaktır."
+            },
+            "founders": {
+                "title": "Takımımız"
+            }
+        }
+    }
+}

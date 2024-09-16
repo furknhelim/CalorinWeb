@@ -1,8 +1,17 @@
 import { NavigateFunction, useNavigate } from "react-router-dom"
+import Images from "../../Images"
+import { useTranslation } from "react-i18next"
+import { useCallback } from "react"
 
 function Pages({ list, activePath }: IPageProps) {
 
+    const { i18n } = useTranslation()
+
     const navigate = useNavigate()
+
+    const onLanguageClick = useCallback(() => {
+        i18n.changeLanguage(i18n.language === "en" ? "tr" : "en")
+    }, [])
 
     return (
         <div id="header-pages">
@@ -38,6 +47,9 @@ function Pages({ list, activePath }: IPageProps) {
                     }
                 })
             }
+            <button id="language-button" onClick={onLanguageClick}>
+                <img src={i18n.language === "en" ? Images.Language.EN : Images.Language.TR} id="language-image" />
+            </button>
         </div>
     )
 }

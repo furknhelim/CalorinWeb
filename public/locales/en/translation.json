@@ -1,0 +1,60 @@
+{
+    "header": {
+        "page": {
+            "home": "Home",
+            "about": "About Us",
+            "contact": "Contact"
+        },
+        "premium": "Premium"
+    },
+    "page": {
+        "home": {
+            "banner": {
+                "title": {
+                    "start": "",
+                    "middle": "The easiest ",
+                    "end": "way to eat healthy"
+                },
+                "description": "Calorin's artificial intelligence-supported assistant and new display technology make calorie calculations easier!"
+            },
+            "goldenKeys": {
+                "title": "3 Golden Keys",
+                "time": {
+                    "title": "TIME",
+                    "description": "Promote your meal in seconds with the camera."
+                },
+                "energy": {
+                    "title": "ENERGY",
+                    "description": "Calculate all your nutritional values with one click."
+                },
+                "motivation": {
+                    "title": "MOTIVATION",
+                    "description": "Stick to your personal plan and gain momentum."
+                }
+            },
+            "appDetails": {
+                "title": {
+                    "start": "The Fastest",
+                    "end": "Method"
+                },
+                "description": "All you have to do is take a photo of your meal and Calorin will show you all the nutritional values in seconds."
+            },
+            "appLink": {
+                "title": {
+                    "start": "Personalized ",
+                    "end": "Plan"
+                },
+                "description": "Follow your progress, stick to the plan and reach your goal thanks to the personal plan offered by Calorin!"
+            }
+        },
+        "about": {
+            "vision": {
+                "title": "Vision and Mission",
+                "description": "Calorin motivates you for a healthy life by allowing you to track your meals and calories in the most practical way. <br /><br /> Our mission is to make healthy eating simple and accessible to everyone and to instill sustainable healthy living in all our users through the new technology we develop."
+            },
+            "founders": {
+                "title": "Our Team"
+            }
+        }
+    }
+}

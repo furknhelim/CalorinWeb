@@ -34,8 +34,24 @@
     letter-spacing: -.07em;
 }
 
+#language-button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+#language-image {
+    height: 40px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+}
+
 #header-pages {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 #header-page-button,
