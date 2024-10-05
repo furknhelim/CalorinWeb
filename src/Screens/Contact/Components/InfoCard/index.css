@@ -10,6 +10,7 @@
     box-shadow: 0px 0px 60px 30px rgba(0, 0, 0, 0.03);
     box-sizing: border-box;
     padding: 10px;
+    font-family: "Montserrat", sans-serif;
 }
 
 #infoCard-left-container {
@@ -30,8 +31,7 @@
     font-weight: 600;
 }
 
-#infoCard-left-contacts {
-}
+#infoCard-left-contacts {}
 
 #infoCard-left-item-title-container {
     display: flex;
@@ -60,5 +60,36 @@
     font-weight: 400;
 }
 
-#infoCard-left-social {
+#infoCard-left-social {}
+
+#infoCard-right-container {
+    flex: .6;
+    height: 100%;
+}
+
+#infoCard-right-content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+
+#infoCard-right-inputs-row {
+    display: flex;
+}
+
+#infoCard-right-button {
+    height: 50px;
+    background-color: #C0A1FC;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px 48px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16;
+    font-weight: bold;
+    margin-top: 50px;
 }

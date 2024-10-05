@@ -1,0 +1,32 @@
+#contactInput-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#contactInput-title {
+    font-size: 12px;
+    font-weight: 500;
+    color: #8D8D8D;
+}
+
+#contactInput-input:focus,
+#contactInput-input {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid;
+    border-color: #8D8D8D;
+    height: 40px;
+    font-size: 13px;
+    padding-block: 0;
+    padding-inline: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #424242;
+    font-weight: 600;
+}
+
+#contactInput-input::placeholder {
+    color: #83838391;
+    font-weight: 400;
+}
