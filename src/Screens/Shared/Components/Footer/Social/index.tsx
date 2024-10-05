@@ -1,3 +1,4 @@
+import { CSSProperties } from "react"
 import Images from "../../../Images"
 import "./index.css"
 
@@ -16,9 +17,9 @@ const LIST: ISocialParams[] = [
     },
 ]
 
-const Social = () => {
+const Social = ({style}: ISocialProps) => {
     return (
-        <div id="social">
+        <div id="social" style={style}>
             {
                 LIST.map(({ image, link }, index) => {
                     return (
@@ -41,6 +42,10 @@ const Social = () => {
 interface ISocialParams {
     image: any
     link: string
+}
+
+interface ISocialProps {
+    style?: CSSProperties
 }
 
 export default Social
