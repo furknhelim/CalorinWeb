@@ -55,6 +55,39 @@
             "founders": {
                 "title": "Our Team"
             }
+        },
+        "contact": {
+            "form": {
+                "title": "Contact Informations",
+                "email": "info@calorinapp.com",
+                "address": {
+                    "title": "Tech İstanbul",
+                    "detail": "Merkez, Abide-i Hürriyet Cd No: 211, 34381 Şişli/İstanbul"
+                },
+                "inputs": {
+                    "firstName": {
+                        "title": "First Name",
+                        "holder": "Enter a first name."
+                    },
+                    "lastName": {
+                        "title": "Last Name",
+                        "holder": "Enter a last name."
+                    },
+                    "email": {
+                        "title": "Email",
+                        "holder": "user@gmail.com"
+                    },
+                    "phone": {
+                        "title": "Contact Phone",
+                        "holder": "+90 555 555 55 55"
+                    },
+                    "message": {
+                        "title": "Message",
+                        "holder": "Enter your message."
+                    }
+                },
+                "submitButton": "Send"
+            }
         }
     }
 }
